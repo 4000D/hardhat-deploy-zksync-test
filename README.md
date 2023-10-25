@@ -1,13 +1,3 @@
-# Sample Hardhat Project
+# Sample hardhat project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
-
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.ts
-```
+Deploy transparent proxy and diamond proxy with `@4000d/hardhat-deploy@0.11.45-rc.5`([modified hardhat-deploy](https://github.com/4000d/hardhat-deploy/tree/custom-publish))
