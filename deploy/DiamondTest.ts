@@ -20,19 +20,19 @@ const func: DeployFunction = async function (hre: HardhatRuntimeEnvironment) {
     waitConfirmations: 1,
 
     diamondContract: await getArtifact("Diamond"),
-    viaCutFacetContract: {
+    defaultCutFacetContract: {
       name: "_DefaultDiamondCutFacet",
       artifact: await getArtifact("DiamondCutFacet"),
     },
-    viaLoopeFacetContract: {
+    defaultLoopeFacetContract: {
       name: "_DefaultDiamondLoupeFacet",
       artifact: await getArtifact("DiamondLoupeFacet"),
     },
-    viaOwnershipFacetContract: {
+    defaultOwnershipFacetContract: {
       name: "_DefaultOwnershipFacet",
       artifact: await getArtifact("OwnershipFacet"),
     },
-    viaERC165InitContract: {
+    defaultERC165InitContract: {
       name: "_DefaultDiamondERC165Init",
       artifact: await getArtifact("DiamondERC165Init"),
     },
@@ -54,19 +54,19 @@ const func: DeployFunction = async function (hre: HardhatRuntimeEnvironment) {
     waitConfirmations: 1,
 
     diamondContract: await getArtifact("Diamond"),
-    viaCutFacetContract: {
+    defaultCutFacetContract: {
       name: "_DefaultDiamondCutFacet",
       artifact: await getArtifact("DiamondCutFacet"),
     },
-    viaLoopeFacetContract: {
+    defaultLoopeFacetContract: {
       name: "_DefaultDiamondLoupeFacet",
       artifact: await getArtifact("DiamondLoupeFacet"),
     },
-    viaOwnershipFacetContract: {
+    defaultOwnershipFacetContract: {
       name: "_DefaultOwnershipFacet",
       artifact: await getArtifact("OwnershipFacet"),
     },
-    viaERC165InitContract: {
+    defaultERC165InitContract: {
       name: "_DefaultDiamondERC165Init",
       artifact: await getArtifact("DiamondERC165Init"),
     },

@@ -45,7 +45,7 @@ devDependencies:
     version: 2.0.1(@ethersproject/abi@5.7.0)(@ethersproject/providers@5.7.2)(@nomicfoundation/hardhat-chai-matchers@1.0.6)(@nomicfoundation/hardhat-network-helpers@1.0.7)(@nomiclabs/hardhat-etherscan@3.1.7)(@typechain/ethers-v5@10.2.1)(@typechain/hardhat@6.1.6)(@types/chai@4.3.9)(@types/mocha@10.0.3)(@types/node@18.11.18)(chai@4.3.10)(ethers@5.7.2)(hardhat-deploy-ethers@0.4.1)(hardhat-gas-reporter@1.0.9)(hardhat@2.16.0)(solidity-coverage@0.8.5)(ts-node@10.9.1)(typechain@8.3.1)(typescript@4.9.4)
   '@nomiclabs/hardhat-ethers':
     specifier: npm:hardhat-deploy-ethers
-    version: /hardhat-deploy-ethers@0.4.1(@4000d/hardhat-deploy@0.11.45-rc.5)(@nomicfoundation/hardhat-ethers@3.0.4)(hardhat@2.16.0)
+    version: /hardhat-deploy-ethers@0.4.1(@4000d/hardhat-deploy@0.11.45-rc.7)(@nomicfoundation/hardhat-ethers@3.0.4)(hardhat@2.16.0)
   '@types/node':
     specifier: 18.11.18
     version: 18.11.18
@@ -62,8 +62,8 @@ devDependencies:
     specifier: 2.16.0
     version: 2.16.0(ts-node@10.9.1)(typescript@4.9.4)
   hardhat-deploy:
-    specifier: npm:@4000d/hardhat-deploy@0.11.45-rc.5
-    version: /@4000d/hardhat-deploy@0.11.45-rc.5
+    specifier: npm:@4000d/hardhat-deploy@0.11.45-rc.7
+    version: /@4000d/hardhat-deploy@0.11.45-rc.7
   hardhat-gas-reporter:
     specifier: 1.0.9
     version: 1.0.9(hardhat@2.16.0)
@@ -85,8 +85,8 @@ devDependencies:
 
 packages:
 
-  /@4000d/hardhat-deploy@0.11.45-rc.5:
-    resolution: {integrity: sha512-1jH7wiDfU1A4XnU+tXlKwa01k7IpTXmwoFS9pMcpPXWxbdZ9M817CFGcy+Icsk0YIOsRKMsbWrdTIV//ObvZ8A==}
+  /@4000d/hardhat-deploy@0.11.45-rc.7:
+    resolution: {integrity: sha512-kZvue7C0yl7aI1PmwGFJMLovrr6vI+TBd9TbsSeW702sAqRS8+OH6dFABMKovpQ6BtOrp6LwBt8WdzgqK5N5Lw==}
     dependencies:
       '@ethersproject/abi': 5.7.0
       '@ethersproject/abstract-signer': 5.7.0
@@ -776,7 +776,7 @@ packages:
       hardhat: ^2.9.4
     dependencies:
       '@ethersproject/abi': 5.7.0
-      '@nomiclabs/hardhat-ethers': /hardhat-deploy-ethers@0.4.1(@4000d/hardhat-deploy@0.11.45-rc.5)(@nomicfoundation/hardhat-ethers@3.0.4)(hardhat@2.16.0)
+      '@nomiclabs/hardhat-ethers': /hardhat-deploy-ethers@0.4.1(@4000d/hardhat-deploy@0.11.45-rc.7)(@nomicfoundation/hardhat-ethers@3.0.4)(hardhat@2.16.0)
       '@types/chai-as-promised': 7.1.7
       chai: 4.3.10
       chai-as-promised: 7.1.1(chai@4.3.10)
@@ -836,7 +836,7 @@ packages:
       '@ethersproject/providers': 5.7.2
       '@nomicfoundation/hardhat-chai-matchers': 1.0.6(chai@4.3.10)(ethers@5.7.2)(hardhat-deploy-ethers@0.4.1)(hardhat@2.16.0)
       '@nomicfoundation/hardhat-network-helpers': 1.0.7(hardhat@2.16.0)
-      '@nomiclabs/hardhat-ethers': /hardhat-deploy-ethers@0.4.1(@4000d/hardhat-deploy@0.11.45-rc.5)(@nomicfoundation/hardhat-ethers@3.0.4)(hardhat@2.16.0)
+      '@nomiclabs/hardhat-ethers': /hardhat-deploy-ethers@0.4.1(@4000d/hardhat-deploy@0.11.45-rc.7)(@nomicfoundation/hardhat-ethers@3.0.4)(hardhat@2.16.0)
       '@nomiclabs/hardhat-etherscan': 3.1.7(hardhat@2.16.0)
       '@typechain/ethers-v5': 10.2.1(@ethersproject/abi@5.7.0)(@ethersproject/providers@5.7.2)(ethers@5.7.2)(typechain@8.3.1)(typescript@4.9.4)
       '@typechain/hardhat': 6.1.6(@ethersproject/abi@5.7.0)(@ethersproject/providers@5.7.2)(@typechain/ethers-v5@10.2.1)(ethers@5.7.2)(hardhat@2.16.0)(typechain@8.3.1)
@@ -2874,7 +2874,7 @@ packages:
       uglify-js: 3.17.4
     dev: true
 
-  /hardhat-deploy-ethers@0.4.1(@4000d/hardhat-deploy@0.11.45-rc.5)(@nomicfoundation/hardhat-ethers@3.0.4)(hardhat@2.16.0):
+  /hardhat-deploy-ethers@0.4.1(@4000d/hardhat-deploy@0.11.45-rc.7)(@nomicfoundation/hardhat-ethers@3.0.4)(hardhat@2.16.0):
     resolution: {integrity: sha512-RM6JUcD0dOCjemxnKLtK7XQQI7NWn+LxF5qicGYax0PtWayEUXAewOb4WIHZ/yearhj+s2t6dL0MnHyLTENwJg==}
     peerDependencies:
       '@nomicfoundation/hardhat-ethers': ^3.0.2
@@ -2883,7 +2883,7 @@ packages:
     dependencies:
       '@nomicfoundation/hardhat-ethers': 3.0.4(ethers@5.7.2)(hardhat@2.16.0)
       hardhat: 2.16.0(ts-node@10.9.1)(typescript@4.9.4)
-      hardhat-deploy: /@4000d/hardhat-deploy@0.11.45-rc.5
+      hardhat-deploy: /@4000d/hardhat-deploy@0.11.45-rc.7
     dev: true
 
   /hardhat-gas-reporter@1.0.9(hardhat@2.16.0):

@@ -20,10 +20,10 @@ const func: DeployFunction = async function (hre: HardhatRuntimeEnvironment) {
     waitConfirmations: 1,
 
     diamondContract: "Diamond",
-    viaCutFacetContract: "DiamondCutFacet",
-    viaLoopeFacetContract: "DiamondLoupeFacet",
-    viaOwnershipFacetContract: "OwnershipFacet",
-    viaERC165InitContract: "DiamondERC165Init",
+    defaultCutFacetContract: "DiamondCutFacet",
+    defaultLoopeFacetContract: "DiamondLoupeFacet",
+    defaultOwnershipFacetContract: "OwnershipFacet",
+    defaultERC165InitContract: "DiamondERC165Init",
   });
 
   console.log("version", await read("DiamondUpgradeTest2", "getVersion"));
@@ -42,10 +42,10 @@ const func: DeployFunction = async function (hre: HardhatRuntimeEnvironment) {
     waitConfirmations: 1,
 
     diamondContract: "Diamond",
-    viaCutFacetContract: "DiamondCutFacet",
-    viaLoopeFacetContract: "DiamondLoupeFacet",
-    viaOwnershipFacetContract: "OwnershipFacet",
-    viaERC165InitContract: "DiamondERC165Init",
+    defaultCutFacetContract: "DiamondCutFacet",
+    defaultLoopeFacetContract: "DiamondLoupeFacet",
+    defaultOwnershipFacetContract: "OwnershipFacet",
+    defaultERC165InitContract: "DiamondERC165Init",
   });
 
   console.log("version", await read("DiamondUpgradeTest2", "getVersion"));
