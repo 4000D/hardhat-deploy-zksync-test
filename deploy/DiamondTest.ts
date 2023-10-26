@@ -24,7 +24,7 @@ const func: DeployFunction = async function (hre: HardhatRuntimeEnvironment) {
       name: "_DefaultDiamondCutFacet",
       artifact: await getArtifact("DiamondCutFacet"),
     },
-    defaultLoopeFacetContract: {
+    defaultLoupeFacetContract: {
       name: "_DefaultDiamondLoupeFacet",
       artifact: await getArtifact("DiamondLoupeFacet"),
     },
@@ -58,7 +58,7 @@ const func: DeployFunction = async function (hre: HardhatRuntimeEnvironment) {
       name: "_DefaultDiamondCutFacet",
       artifact: await getArtifact("DiamondCutFacet"),
     },
-    defaultLoopeFacetContract: {
+    defaultLoupeFacetContract: {
       name: "_DefaultDiamondLoupeFacet",
       artifact: await getArtifact("DiamondLoupeFacet"),
     },

@@ -21,7 +21,7 @@ const func: DeployFunction = async function (hre: HardhatRuntimeEnvironment) {
 
     diamondContract: "Diamond",
     defaultCutFacetContract: "DiamondCutFacet",
-    defaultLoopeFacetContract: "DiamondLoupeFacet",
+    defaultLoupeFacetContract: "DiamondLoupeFacet",
     defaultOwnershipFacetContract: "OwnershipFacet",
     defaultERC165InitContract: "DiamondERC165Init",
   });
@@ -43,7 +43,7 @@ const func: DeployFunction = async function (hre: HardhatRuntimeEnvironment) {
 
     diamondContract: "Diamond",
     defaultCutFacetContract: "DiamondCutFacet",
-    defaultLoopeFacetContract: "DiamondLoupeFacet",
+    defaultLoupeFacetContract: "DiamondLoupeFacet",
     defaultOwnershipFacetContract: "OwnershipFacet",
     defaultERC165InitContract: "DiamondERC165Init",
   });
